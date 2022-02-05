@@ -20,8 +20,7 @@ export const Team = () => {
 <img src={image2} alt="No image"/>
 </div>
 <div class="team-title">
-    <h3>Name </h3>
-    <p>Title</p>
+    <h3>Name Title</h3>
 </div>
 </div>
 </div>
@@ -31,8 +30,7 @@ export const Team = () => {
 <img src={image2} alt="No image"/>
 </div>
 <div class="team-title">
-    <h3>Name </h3>
-    <p>Title</p>
+    <h3>Name Title</h3>
 </div>
 </div>
 </div>
@@ -42,8 +40,7 @@ export const Team = () => {
 <img src={image2} alt="No image"/>
 </div>
 <div class="team-title">
-    <h3>Name </h3>
-    <p>Title</p>
+    <h3>Name Title</h3>
 </div>
 </div>
 </div>
@@ -53,8 +50,7 @@ export const Team = () => {
 <img src={image2} alt="No image"/>
 </div>
 <div class="team-title">
-    <h3>Name </h3>
-    <p>Title</p>
+    <h3>Name Title</h3>
 </div>
 </div>
 </div>
@@ -64,8 +60,7 @@ export const Team = () => {
 <img src={image2} alt="No image"/>
 </div>
 <div class="team-title">
-    <h3>Name </h3>
-    <p>Title</p>
+    <h3>Name Title</h3>
 </div>
 </div>
 </div>

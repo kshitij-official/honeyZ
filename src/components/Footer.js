@@ -1,14 +1,14 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import imageFL from "../images/footer-logo.svg";
-import imageFTwit from "../images/twitter.svg";
-import imageFDis from "../images/discord.svg";
-import imageFInstagram from "../images/instagram.svg";
-import imageFlogomark from "../images/logo-mark.svg";
+import imageFTwit from "../images/ftwitter-svg.svg";
+import imageFDis from "../images/fdiscord-svg.svg";
+import imageFInstagram from "../images/finstagram.svg";
+import imageFlogomark from "../images/flogo-mark.svg";
 
 export const Footer = () => {
     return (
         <div className='fotter-section'>
+            <div class="container">
             <div className="row content-row">
                 <div className="col-3 col-md-">
                     <img src={imageFL} alt="No image"/>
@@ -33,8 +33,11 @@ export const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <div className='row copyright-sec'>
+            </div>
+            <div class="container-fluid">
+            <div className='copyright-sec'>
                 <p>@2022 Honeyz All Rights Reserved. Honeyznft@gmail.com</p>
+            </div>
             </div>
         </div>
     );
