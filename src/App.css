@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+img, svg{max-width: 100%;}
+html body{background: #ffece9;}
+.header-section .row .col{   flex: inherit;   width: auto;}
+.header-section .row {flex-wrap: inherit;}
+#root .container{max-width: 1635px;}
+.header-menus.navbar{padding: 0;}
+.nav-item:before {content: ""; position: absolute; top:0; left:0;
+  background: url(/src/images/pink-g.svg) no-repeat;background-position: bottom left;
+  display: inline-block;    width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
+.nav-item:last-child:after {content: ""; position: absolute; top:0; left:0;
+  background: url(/src/images/pink-g.svg) no-repeat;
+  display: inline-block;    width: 100%;
+  height: 100%;border-radius: 0 0 16px 0px;
+  z-index: -1;
+  pointer-events: none;background-position: bottom left;}
+.nav-item:last-child:before {background-position: bottom right;}
+.nav-item {position: relative;margin-left: -13px;z-index: 1;}
+.nav-item:first-child{margin-left: 0;}
+.header-menus.navbar-light .navbar-nav .nav-link{
+  font-size: 15px;    z-index: 11;min-width: 120px;
+  position: relative;
+  color: #ffffff;
+  font-weight: 700;    text-transform: uppercase;
+  font-family: "Lato";padding: 28px 43px 28px 30px;
+  text-align: center;}
+  .header-menus.navbar-light .navbar-nav li:last-child .nav-link{padding: 28px 30px;}
+  .header-menus.navbar-light .navbar-nav .nav-link:hover{color: #fff; text-decoration: underline;}
+  .logo-wrap {
+    padding: 20px 0;
+    display: inline-block;
+}
+i.icon-fa {
+  display: flex;
+  width: 49px;
+  height: 36px;
+  background-size: contain;
+  background-position: center;background-repeat: no-repeat;
+}
+.social-links, .social-links li{margin: 0; padding: 0 ; list-style: none;}
+.social-links li{padding: 0 0 0 30px;}
+.social-links li:first-child{padding-left: 0;}
+.social-links{flex-direction: row;display: flex;padding-top: 25px;}
+.icon-twitter{background-image: url(/src/images/twitter.svg);}
+.icon-discord{background-image: url(/src/images/discord.svg);}
+.icon-instagram{background-image: url(/src/images/instagram.svg);}
+.icon-logomark{background-image: url(/src/images/logo-mark.svg);}
+
+
+.coming-soom-wrap {
+  padding: 80px 8.5vw;
+}
+.page-wrapper::before{content: ""; position: absolute; top:16vw; left:0;
+  background: url(/src/images/sparkle-background1.svg) no-repeat; background-size: cover;
+  display: inline-block;    width: 100%; height: 100%; z-index: -1; pointer-events: none;}
+#root .coming-soom-wrap .container{    max-width: 1362px;}
+.coming-text {font-size: 14px;color: #414141;font-weight: 400;    max-width: 324px;  font-family: "Lato";}
+.arrow{display: inline-block; width:21px; height: 7px;; background: url(/src/images/arrow.svg) no-repeat;margin: 4px 0 0 9px;}
+.btn1{max-width: 263px; width:100%;
+  height: 54px;
+  border-radius: 20px;
+  background-color: #fea6c5;font-size: 16px;
+  color: #ffffff;
+  font-weight: 700;display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; margin-bottom: 12px;
+  text-transform: uppercase;
+  font-family: "Lato";}
+.btn2{font-size: 14px;
+  color: #ff84b0;max-width: 263px; width:100%;
+  height: 37px;
+  border-radius: 15px;display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #ffd7e5;
+  font-weight: 700;
+  font-family: "Lato";}
+  .btn1:hover{color: #ffffff; text-decoration: underline;}
+  .btn2:hover{color: #000; text-decoration: underline;}
+  .col.comin-right {
+    flex: 1 0 50%;
+}
+.col.coming-left {
+  flex: 1 0 33.333%;
+}
+@media (max-width:1500px){
+  #root .container{max-width: 1300px;}
+.logo-wrap img{    max-width: 200px;}
+i.icon-fa {width: 35px;height: 30px;}
+.social-links li{padding: 0 0 0 20px;}
+
+}
+
+/* start footer section css  */
+.fotter-section {
+  background-color: #FEA6C5;
+  color: #fff;
+  overflow: hidden;
+}
+
+.fotter-section ul {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  justify-content: center;
+  margin: 0;
+}
+.fotter-section ul.fotter-link {
+  justify-content: space-around;
+}
+.fotter-section ul li {
+  padding-right: 15px;
+}
+.fotter-section ul.fotter-link  li {
+padding-right: 32px;
+}
+.fotter-section ul li:last-child {
+  padding-right: 0;
+}
+ul.fotter-link li a {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 15px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+}
+.fotter-section p {
+  font-size: 12px;
+  color: #414141;
+  font-weight: 400;
+  font-family: "Lato";
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+.content-row {
+  border-bottom: 2px solid #fff;
+}
+.content-row {
+  padding: 25px 110px;
+  align-items: center;
+}
+.fotter-section img {
+  cursor: pointer;
+  padding-left: 26px;
+}
+.fotter-section {
+  clear: both;
+  content: '';
+}
+.social-logo {
+  float: right;
+}
+.copyright-sec {
+  justify-content: center;
+}
+.teambox {
+  width: 190px;
+height: 190px;
+border-radius: 30px;
+background-color: #b7b7b7;
+border: 5px solid #ffffff;
+margin-right: 40px;
+}
+.teambox:last-child {
+  margin-right: 0;
+}
+.team-row {
+  max-width: 1340px;
+  margin: 0 auto !important;
+  padding: 80px 0 0;
+}
+.team-section {
+  background-color: #fea6c5;
+  text-align: center;
+  padding-bottom: 130px;
+}
+.team-section img {
+  padding-top: 96px;
+}
+.team-row-content {
+  max-width: 1340px;
+  margin: 0 auto !important;
+  padding: 20px 0;
+  text-align: center;
+}
+.row.team-row-content {
+  color: #fff;
+}
+.row.team-row-content p {
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+  margin: 0;
+}
+
+
+/* End css  */
