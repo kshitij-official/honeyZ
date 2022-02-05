@@ -6,12 +6,22 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 export const ComingSoon = () => {
+  const Images = [
+    {image: image3, alt: 'No image'},
+    {image: image3, alt: 'No image'},
+    {image: image3, alt: 'No image'},
+    {image: image3, alt: 'No image'},
+    {image: image3, alt: 'No image'},
+    {image: image3, alt: 'No image'},
+    {image: image3, alt: 'No image'}
+  ];
+  const numSlides = Images.length;
   const settings = {
     dots: true,
     infinite: true,
     speed: 300,
-    slidesToShow: 6,
-    // slidesToScroll: 6,
+    slideToShow: 6,
+    slidesToScroll: 6,
     rows: 1,
     // slidesPerRow: 6,
     // centerMode: true,
