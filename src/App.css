@@ -91,8 +91,8 @@ i.icon-fa {
 .icon-logomark{background-image: url(/src/images/logo-mark.svg);}
 
 
-.coming-soom-wrap {
-  padding: 80px 8.5vw;
+.coming-section {
+  padding: 80px 8.5vw 60px;
 }
 .page-wrapper::before{content: ""; position: absolute; top:16vw; left:0;
   background: url(/src/images/sparkle-background1.svg) no-repeat; background-size: cover;
@@ -131,12 +131,27 @@ i.icon-fa {
 .col.coming-left {
   flex: 1 0 33.333%;
 }
+.page-wrapper {
+  position: relative;
+}
 @media (max-width:1500px){
   #root .container{max-width: 1300px;}
 .logo-wrap img{    max-width: 200px;}
 i.icon-fa {width: 35px;height: 30px;}
 .social-links li{padding: 0 0 0 20px;}
 
+}
+ /* the slides */
+ .slick-slide {
+  margin: 0 27px;
+}
+
+/* the parent */
+.slick-list {
+  margin: 0 -27px;
+}
+.slick-track{
+  width: auto;
 }
 
 /* start footer section css  */
