@@ -16,13 +16,13 @@ function App() {
     <div>
       <Header />
       <ComingSoon />
-      {/* <AboutUs />
+      <AboutUs />
       <Benefits />
       <Roadmap />
       <RoadmapTwo />
-      <Partners /> */}
+      <Partners />
       <Team />
-      {/* <Faq /> */}
+      <Faq />
       <Footer />
     </div>
   );
