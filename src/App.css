@@ -142,20 +142,21 @@ i.icon-fa {width: 35px;height: 30px;}
 
 }
  /* the slides */
- .slick-slide {
+
+ /* .slick-slide {
   margin: 0 27px;
-}
+}  */
 
 /* the parent */
-.slick-list {
+/* .slick-list {
   margin: 0 -27px;
-}
-.slick-track{
+} */
+/* .slick-track{
   width: auto;
-}
+} */
 
 /* start footer section css  */
-.fotter-section {
+/* .fotter-section {
   background-color: #FEA6C5;
   color: #fff;
   overflow: hidden;
@@ -262,10 +263,12 @@ margin-right: 40px;
   font-family: "Lato";
   text-align: center;
   margin: 0;
-}
- */
+} */
+
 
 /* End css  */
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap');
 
