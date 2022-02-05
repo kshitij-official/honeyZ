@@ -4,7 +4,6 @@ import imageFTwit from "../images/ftwitter-svg.svg";
 import imageFDis from "../images/fdiscord-svg.svg";
 import imageFInstagram from "../images/finstagram.svg";
 import imageFlogomark from "../images/flogo-mark.svg";
-​
 export const Footer = () => {
     return (
         <div className='fotter-section'>
