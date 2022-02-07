@@ -11,6 +11,7 @@ return (
 <div className="patners-title">
 <img src={image1} alt="No image"/>
 </div>
+</div>
     </div>
     <div className='patner-blocks row'>
 <div class="col-6">
@@ -21,7 +22,7 @@ return (
 <img src={image2} alt="No image"/>
 </div>
 </div>
-</div>
+
     </div>
     </div>
 );

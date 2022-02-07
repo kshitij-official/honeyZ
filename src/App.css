@@ -41,8 +41,8 @@
 
 img, svg{max-width: 100%;}
 html body{background: #ffece9;}
-.header-section .row .col{   flex: inherit;   width: auto;}
-.header-section .row {flex-wrap: inherit;}
+.header-section .row .col{   flex: inherit;     padding: 0 0;  width: auto;}
+.header-section .row {flex-wrap: inherit;     margin: 0 -5px;}
 #root .container{max-width: 1635px;}
 .header-menus.navbar{padding: 0;}
 .nav-item:before {content: ""; position: absolute; top:0; left:0;
@@ -187,7 +187,8 @@ i.icon-fa {
 .team-grid {
   padding: 0 5px;
 }
-.team-img img{width:100%;}
+.team-img img{width:100%;    opacity: 0;
+}
   .about-icon img{margin: 0;}
   .about-listing p{margin: 0;}
 .benefits-wrap{    padding: 40px 0;
@@ -277,7 +278,7 @@ ul.benefits-listing {
   font-weight: 500;
   font-family: "Lato";    margin-top: 90px;
   text-align: center;  background-color: #fea6c5;padding: 0 20px 20px;
-  max-height: 292px; height: 100%;}
+  max-height: max-content; height: calc(100% - 90px);}
   .roadmap-inner h2{margin: 0; padding: 0;font-size: 15px;
     line-height: 20px;
     color: #ffffff;
@@ -296,13 +297,8 @@ ul.benefits-listing {
   padding: 0 0 70px;
 }
 .patner-blocks .col-6{padding: 0 30px;}
-
-
-.slick-slider.slick-initialized {
-  width: 100%;
-  overflow: hidden;
-}
-
+.team-title{text-align: center; color: #fff;}
+.team-title p{    font-size: 15px;  margin: 0;}
 .team-wrapper{padding: 80px 20px 120px;background-color: #fea6c5;}
 .team-grid h3{font-size: 15px;
   line-height: 20px;
@@ -310,7 +306,7 @@ ul.benefits-listing {
   font-weight: 700;
   font-family: "Lato";
   text-align: center; margin: 0; padding: 0;}
-  .team-img{    width: 100%;
+  .team-img{    width: 100%;background-color: #b7b7b7;
     border: 5px solid #fff;    margin: 0 0 15px;
     border-radius: 30px;}
 
@@ -381,8 +377,12 @@ ul.benefits-listing {
     .copyright-sec {
       justify-content: center;
     }
+.roadmap-inner p{font-weight:300;}
+.team-title-img{padding: 0 0 70px;}
 
-
+@media (min-width:768px){
+  .mobile-show{display:none !important;}
+}
 @media (max-width:1500px){
   #root .container{max-width: 1300px;}
 .logo-wrap img{    max-width: 200px;}
@@ -392,5 +392,319 @@ i.icon-fa {width: 35px;height: 30px;}
 
 }
 
+@media (max-width:1200px){
+  .header-menus.navbar-light .navbar-nav .nav-link{    font-size: 13px;min-width:70px;padding: 20px 28px 20px 12px;}
+  .header-menus.navbar-light .navbar-nav li:last-child .nav-link {
+    padding: 20px 20px;
+}
+.logo-wrap { padding: 10px 0;}
+.social-links{padding-top: 15px;}
+.col.comin-right {
+  flex: 1 0 30%;
+}
+.fotter-section .social-logo img {
+  max-width: 30px;
+  max-height: 25px;
+}
+.fotter-section ul.fotter-link li {
+  padding-right: 15px;
+}
+.fotter-section ul li:last-child {
+  padding-right: 0;
+}
+.fotter-section img{max-width: 180px;}
+ul.fotter-link li a{    font-size: 13px;}
+.fotter-section ul li {
+  padding-right: 14px;
+}
 
+}
+
+
+@media (min-width:768px) and (max-width:1024px) {
+  
+  .fotter-section img {
+    max-width: 140px;
+}
+.fotter-section .social-logo img {
+  max-width: 25px;
+  max-height: 20px;
+}
+  .patners-wrapper {
+    padding: 40px 20px;
+}
+.team-grid {
+  padding: 0;
+}
+.team-title-img {
+    padding: 0 0 30px;
+}
+.team-wrapper{padding: 40px 20px 80px;}
+.team-title-img img{max-width:200px;}
+  .patners-title img{    max-width: 300px;}
+  .roadmap-inner{padding: 0 10px 20px}
+  .coming-section {
+    padding: 40px 4.5vw 40px;
+}
+.benefits-text > img, .roadmap-title img,
+.about-text > img{    max-width: 300px;}
+.col.about-left{padding-left: 30px; padding-right: 10px;}
+.about-text, .benefits-text {
+  padding: 30px 0;}
+  ul.benefits-listing{  padding: 0 30px 0 40px;}
+  .benefits-listing p { padding: 10px 20px;}
+  .roadmap-wrapper{padding: 60px 30px 0;}
+  .roadmap2-wrapper {
+    padding: 60px 0;
+}
+
+
+}
+
+@media (max-width:1024px){
+  .header-section {
+    background: #fff4f2;
+    padding: 10px 0;
+}
+  .nav-item{margin-left: 0;}
+  .nav-item:last-child:before,
+  .nav-item:before{    background: url(images/heart-m.svg) no-repeat; width:15px; height:15px;    background-size: contain; top:13px; background-position:inherit;}
+  .navbar-expand-lg .navbar-collapse .navbar-nav{flex-direction: column; width: auto; align-items: center;}
+  .header-menus.navbar-light .navbar-nav li:last-child .nav-link,
+  .header-menus.navbar-light .navbar-nav .nav-link{font-size: 14px;
+    line-height: 18px;    padding: 12px 20px 12px 25px;  text-align: left;  display: inline-block;
+    color: #ffffff;min-width: 120px;}
+  .roadmap-img{top: -64px;min-height: 180px;  max-height: 180px;margin-bottom: -40px;}
+  .col.desktop-show {
+    display: none;
+}
+ul.social-links.mobile-show, .placeholder-mobile.mobile-show,
+.col.mobile-show {    width: 100%;
+  display: inline-block !important;
+}
+ul.social-links.mobile-show {
+    text-align: center;padding: 20px 0 60px;
+}
+ul.social-links.mobile-show li{    display: inline-block;}
+.mobile-show .icon-twitter{background-image: url(/src/images/twitter-m.svg);    width: 25px;
+  height: 20px;}
+.mobile-show .icon-discord{background-image: url(/src/images/discord-m.svg);    width: 25px;
+  height: 20px;}
+.mobile-show .icon-instagram{background-image: url(/src/images/instagram-m.svg);    width: 25px;
+  height: 20px;}
+.mobile-show .icon-logomark{background-image: url(/src/images/logo-mark-m.svg);    width: 25px;
+  height: 20px;}
+
+  .header-section .row{    justify-content: center !important;    align-items: center;}
+  .header-section .col:first-child{order: 2;}
+  .header-section .col:nth-child(2){order: 1; position: absolute; left:10px;}
+  .header-section .col:nth-child(3){order: 3; position: absolute; right:20px;   padding-right: 0;}
+  .header-section .navbar-light .navbar-toggler{display: flex !important; box-shadow: none; padding-top: 0; border-color: transparent;}
+  .header-section .navbar-light .navbar-toggler-icon{width: 22px; position:relative;
+    height: 2px;
+    background-color: #fea6c5;background-image:none;}
+    .placeholder-mobile.mobile-show{    float: right;
+      max-width: 200px;
+      right: -19px;
+      position: relative}
+    .header-section .navbar-expand-lg .navbar-collapse{    display: none !important; position: fixed;
+      top: 0;
+      left: 0;    overflow: auto;
+      padding: 40px 20px;
+      background: #fea6c5;
+      max-width: 80%;
+      width: 100%;
+      height: 100vh;
+      z-index: 11;}
+      .close-wrap.mobile-show {
+        position: absolute;
+        display: block !important;
+        top: 20px;
+        left: 30px;
+    }
+    .mobile-open .header-section .navbar-expand-lg .navbar-collapse{display: block !important; }
+    .logo-wrap.mobile-show {
+      display: block !important;
+      margin: 0 auto;
+      text-align: -webkit-center;
+      padding: 30px 0 20px;
+  }
+  .col-mobile.mobile-show {text-align:center;
+    display: block !important;
+  }
+ .col-mobile .btn-mint {
+    border-radius: 19px;
+    font-size: 12px;
+    color: #ffd7e5;
+    padding: 9px 15px;
+    text-transform: uppercase;
+    background: #ff84b0;
+    height: 37px;
+    min-width: 170px;    margin-bottom: 20px;
+}
+.nav-item:last-child:after{content: none;}
+.mobile-open .page-wrapper::before{background-image: linear-gradient(90deg, #000000 0%, rgba(77,77,77,0.08) 100%, rgba(84,84,84,0) 100%);     z-index: 1;width: 100vw;
+  background-position:inherit; top:0;  height: 100vh;    background-color: #fff;}
+    .navbar-light .navbar-toggler-icon:before{width: 22px; position:absolute; top:-7px; left:0;
+      height: 2px; background-color: #fea6c5;background-image:none; content:"";}
+      .navbar-light .navbar-toggler-icon:after{width: 22px; position:absolute; bottom:-7px; left:0;
+        height: 2px; background-color: #fea6c5;background-image:none; content:"";}
+
+        .btn-mint{border-radius: 17px;font-size: 12px;
+          color: #ffffff; display: inline-block;
+          font-weight: 700; text-decoration: none;
+          font-family: "Lato";    padding: 7px 15px;
+          text-transform: uppercase;
+          background-image: linear-gradient(180deg, #ffeaf1 0%, #fea6c5 100%, #ffffff 100%);height: 33px;
+        }
+
+
+}
+
+
+@media (max-width:767px){
+  .col.comin-right {
+    flex: 1 0 100%;
+}
+  .slider  {    flex-wrap: wrap;padding: 20px 10px;}
+  .slider  .p-3{width:33.333%;}
+  .about-listing{padding: 0 0 0 10px;}
+  .about-icon{width: 35px; height: 35px;top: -7px;  left: -14px;}
+  .about-text > img{max-width: 240px;}
+  .team-grid {
+    padding: 0 5px 30px;
+
+}
+.header-section .navbar-light .navbar-toggler{ box-shadow: none; padding-top: 0; border-color: transparent;}
+.header-section .navbar-light .navbar-toggler-icon{width: 22px; position:relative;
+  height: 2px;
+  background-color: #fea6c5;background-image:none;}
+  .navbar-light .navbar-toggler-icon:before{width: 22px; position:absolute; top:-7px; left:0;
+    height: 2px; background-color: #fea6c5;background-image:none; content:"";}
+    .navbar-light .navbar-toggler-icon:after{width: 22px; position:absolute; bottom:-7px; left:0;
+      height: 2px; background-color: #fea6c5;background-image:none; content:"";}
+.coming-soom-wrap {
+  flex-direction: column-reverse;
+  display: flex;
+}
+.coming-section {
+  padding: 10px 20px 30px;
+}
+.benefits-section .container-fluid  .row{flex-direction: column-reverse;}
+.benefits-left img{margin-bottom: 50px;}
+.about-wrap {
+    padding: 0 0 10px;}
+.benefits-wrap {  padding: 0;}
+.benefits-text {
+  padding: 50px 0;}
+.about-listing li:before{width: 45px;
+  height: 28px;    bottom: -25px;
+  left: 40px;
+  background-repeat: no-repeat;}
+  
+  .social-links{
+    justify-content: center;}
+.about-listing li {padding: 18px 25px;}
+.about-icon img{padding: 8px; display: block;}
+.team-wrapper {
+  padding: 50px 20px 10px;}
+  .team-blocks .col-2{width: 50%;}
+  .patners-title {
+    padding: 0 0 30px;
+}
+.team-title-img{padding: 0 0 30px;}
+.team-title-img img{max-width: 144px;;}
+.patners-title img{max-width: 198px;;}
+.patner-blocks .col-6 {
+  padding: 20px 30px 20px;
+  width: 100%;
+}
+.roadmap-listing > div{font-size: 12px;line-height: 18px;}
+.coming-text{font-size: 16px; margin: 0 auto 50px;}
+.col.comin-right, .col.about-left,.col.about-right, .col.benefits-right, .col.benefits-left,
+.col.coming-left {
+  flex: 1 0 100%; text-align: center; width: 100%; max-width: 100%;    padding: 0 35px;
+}
+.about-text{    padding: 20px 0;}
+.btn2{margin: 0 auto;}
+.btn1{margin: 0 auto 15px;}
+ul.benefits-listing{    padding:0 5px 0 35px}
+.roadmap-listing{padding-left: 42px;padding-right: 5px;}
+.benefits-listing p.chat-reply {
+  left: 30px;
+  width: calc(100% - 20px);
+}  
+.roadmap2-wrapper .roadmap-title img{    max-width: 280px;}
+.roadmap2-wrapper {
+    padding: 40px 0 10px;
+}
+.roadmap-blocks .col-3 {
+  padding: 0 20px;width: 50%;min-width: 205px;
+}
+.roadmap-img{min-height: 185px;
+  max-height: 185px;}
+
+.roadmap-blocks.row {
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+.patners-wrapper {
+  padding: 30px 20px 50px;
+}
+.roadmap-icon img {
+  max-width: 155px;
+}
+.roadmap-title img {
+  max-width: 245px;
+}
+.desktop-show{display:none !important;}
+.roadmap-wrapper {
+  background-color: #fea6c5;
+  padding: 80px 10px 0;
+}
+.benefits-text > img{max-width: 215px;}
+.benefits-listing p {
+    padding: 10px 20px 20px;}
+.roadmap-listing > div:before{    left: -23px;}
+.roadmap-icon:before{width: 40px;height: 40px;  background-size: contain;left:-40px;}
+.roadmap-inner{margin-bottom: 20px;padding: 0 10px 10px;max-height: max-content;
+  height: calc(100% - 120px);}
+.roadmap-inner p{    font-weight: 300;}
+.fotter-section .content-row > [class*="col-"]{width:100%;    text-align: center;}
+.fotter-section .content-row > .col-6{display: none;}
+.fotter-section img {
+  max-width: 155px;
+  margin: 0 0 13px;
+}
+.fotter-section ul{float: none;}
+.faq-wrapper {
+  padding: 40px 10px;
+}
+.social-logo img{max-width: 33px;margin: 0;}
+.fotter-section p{padding: 12px 20px 20px;font-size: 9px;}
+.col.benefits-right{padding: 0 20px;}
+.logo-wrap img {
+  max-width: 120px;
+}
+.header-section {
+  background: #fff4f2;
+  padding: 10px 0;
+}
+
+
+}
+
+@media (max-width:480px){
+  .btn-mint{font-size: 11px;padding: 9px 13px;}
+  .header-section .col:nth-child(2) {
+    order: 1;
+    position: relative;
+    left: -10px;
+}
+.header-section .col:nth-child(3){right: 1px;position: relative;}
+  .col.comin-right,
+  .col.coming-left{padding:0 5px;}
+  .header-section .row {
+    justify-content: space-between !important;}
+}
 

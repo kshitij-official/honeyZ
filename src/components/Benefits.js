@@ -2,6 +2,7 @@ import React from 'react';
 import image1 from "../images/benifits.svg";
 import image2 from "../images/placeholder.jpg";
 import image3 from "../images/p-star.svg";
+import image4 from "../images/placeholder2.svg";
 export const Benefits = () => {
 return (
     <div className='benefits-wrap'>
@@ -10,7 +11,8 @@ return (
     <div className="container-fluid">
 <div className="row align-items-stretch justify-content-between">
 <div className="col benefits-left">
-<img src={image2} alt="No image"/>
+<img src={image2} className="desktop-show" alt="No image"/>
+<img src={image4} className="mobile-show" alt="No image"/>
 </div>
 <div className="col benefits-right">
 <div className="benefits-text">

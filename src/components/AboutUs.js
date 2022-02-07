@@ -5,6 +5,7 @@ import image3 from "../images/heart-s.svg";
 import image4 from "../images/heel-s.svg";
 import image5 from "../images/figure.svg";
 import image6 from "../images/diamond.svg";
+import image7 from "../images/placeholder2.svg";
 
 export const AboutUs = () => {
 return (
@@ -43,7 +44,9 @@ return (
 
 </div>
 <div className="col about-right">
-<img src={image2} alt="No image"/>
+<img src={image2} className="desktop-show" alt="No image"/>
+<img src={image7} className="mobile-show" alt="No image"/>
+
 </div>
 
 </div>
