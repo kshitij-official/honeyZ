@@ -55,6 +55,12 @@ through a unique sense of fashion.</p>
   <div className='p-3'>
   <img src={image3} alt="No image"/>
   </div>
+  <div className='p-3'>
+  <img src={image3} alt="No image"/>
+  </div>  
+  <div className='p-3'>
+  <img src={image3} alt="No image"/>
+  </div>
  
   
 </section>
