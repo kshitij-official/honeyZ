@@ -17,6 +17,15 @@ and crypto while expressing self confidence
 through a unique sense of fashion.</p>
 <a href='#' className='btn1'>Mint coming soon</a>
 <a href='#' className='btn2'>Follow for pre-sale updates <span class="arrow"></span></a>
+
+<div className="col mobile-show">
+  <ul className='social-links'>
+                        <li><i className="icon-fa icon-twitter"> </i></li>
+                        <li><i className="icon-fa icon-discord"></i></li>
+                        <li><i className="icon-fa icon-instagram"></i></li>
+                        <li><i className="icon-fa icon-logomark"></i></li>
+                    </ul>
+  </div>
   </div>
 
 </div>
@@ -40,6 +49,15 @@ through a unique sense of fashion.</p>
   <div className='p-3'>
   <img src={image3} alt="No image"/>
   </div>
+  <div className='p-3'>
+  <img src={image3} alt="No image"/>
+  </div>
+  <div className='p-3'>
+  <img src={image3} alt="No image"/>
+  </div>
+  <div className='p-3'>
+  <img src={image3} alt="No image"/>
+  </div>  
   <div className='p-3'>
   <img src={image3} alt="No image"/>
   </div>
