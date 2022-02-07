@@ -708,3 +708,8 @@ ul.benefits-listing{    padding:0 5px 0 35px}
     justify-content: space-between !important;}
 }
 
+
+.slick-slider.slick-initialized {
+  width: 100%;
+  overflow: hidden;
+}
