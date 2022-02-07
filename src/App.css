@@ -298,6 +298,11 @@ ul.benefits-listing {
 .patner-blocks .col-6{padding: 0 30px;}
 
 
+.slick-slider.slick-initialized {
+  width: 100%;
+  overflow: hidden;
+}
+
 .team-wrapper{padding: 80px 20px 120px;background-color: #fea6c5;}
 .team-grid h3{font-size: 15px;
   line-height: 20px;
