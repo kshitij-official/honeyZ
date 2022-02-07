@@ -47,7 +47,7 @@ through a unique sense of fashion.</p>
   <img src={image3} alt="No image"/>
   </div>
  
-  
+   
 </section>
 </div>
 );
