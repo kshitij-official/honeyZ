@@ -68,7 +68,7 @@ export const ComingSoon = () => {
                   and crypto while expressing self confidence
                   through a unique sense of fashion.</p>
                 <a href='#' className='btn1'>Mint coming soon</a>
-                <a href='#' className='btn2'>Follow for pre-sale updates <span class="arrow"></span></a>
+                <a href='https://twitter.com/HoneyzNft' className='btn2'>Follow for pre-sale updates <span class="arrow"></span></a>
                 <div className="col mobile-show">
                   <ul className='social-links'>
                     <li><i className="icon-fa icon-twitter"> </i></li>
