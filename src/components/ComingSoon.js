@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import image2 from "../images/BigWindow.svg";
 import image3 from "../images/heartsplaceholder.png";
 import Slider from "react-slick";
@@ -6,6 +6,18 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 export const ComingSoon = () => {
+  const [width, setWidth] = useState(window.innerWidth);
+
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+  }
+  useEffect(() => {
+    window.addEventListener('resize', handleWindowSizeChange);
+    return () => {
+        window.removeEventListener('resize', handleWindowSizeChange);
+    }
+  }, []);
+
   var settings = {
     dots: false,
     infinite: true,
@@ -66,8 +78,39 @@ export const ComingSoon = () => {
           </div>
         </div>
       </div>
+      {width <= 768 ?
+      <section className="center slider d-flex justify-content-center">
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+      </section>
+      : 
       <Slider {...settings}>
-        <div className='p-1'>
+      <div className='p-1'>
           <img src={image3} alt="No image" />
         </div>
         <div className='p-1'>
@@ -95,6 +138,7 @@ export const ComingSoon = () => {
           <img src={image3} alt="No image" />
         </div>
       </Slider>
+    }
     </div>
   );
 };
