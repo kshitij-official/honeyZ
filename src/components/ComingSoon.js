@@ -69,8 +69,15 @@ export const ComingSoon = () => {
                   through a unique sense of fashion.</p>
                 <a href='#' className='btn1'>Mint coming soon</a>
                 <a href='#' className='btn2'>Follow for pre-sale updates <span class="arrow"></span></a>
+                <div className="col mobile-show">
+                  <ul className='social-links'>
+                    <li><i className="icon-fa icon-twitter"> </i></li>
+                    <li><i className="icon-fa icon-discord"></i></li>
+                    <li><i className="icon-fa icon-instagram"></i></li>
+                    <li><i className="icon-fa icon-logomark"></i></li>
+                  </ul>
+                </div>
               </div>
-
             </div>
             <div className="col comin-right">
               <img src={image2} alt="No image" />
