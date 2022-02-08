@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import image2 from "../images/BigWindow.svg";
 import image3 from "../images/heartsplaceholder.png";
 import Slider from "react-slick";
@@ -6,6 +6,18 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 export const ComingSoon = () => {
+  const [width, setWidth] = useState(window.innerWidth);
+
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+  }
+  useEffect(() => {
+    window.addEventListener('resize', handleWindowSizeChange);
+    return () => {
+        window.removeEventListener('resize', handleWindowSizeChange);
+    }
+  }, []);
+
   var settings = {
     dots: false,
     infinite: true,
@@ -57,8 +69,15 @@ export const ComingSoon = () => {
                   through a unique sense of fashion.</p>
                 <a href='#' className='btn1'>Mint coming soon</a>
                 <a href='#' className='btn2'>Follow for pre-sale updates <span class="arrow"></span></a>
+                <div className="col mobile-show">
+                  <ul className='social-links'>
+                    <li><i className="icon-fa icon-twitter"> </i></li>
+                    <li><i className="icon-fa icon-discord"></i></li>
+                    <li><i className="icon-fa icon-instagram"></i></li>
+                    <li><i className="icon-fa icon-logomark"></i></li>
+                  </ul>
+                </div>
               </div>
-
             </div>
             <div className="col comin-right">
               <img src={image2} alt="No image" />
@@ -66,8 +85,39 @@ export const ComingSoon = () => {
           </div>
         </div>
       </div>
+      {width <= 768 ?
+      <section className="center slider d-flex justify-content-center">
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+        <div className='p-3'>
+        <img src={image3} alt="No image"/>
+        </div>
+      </section>
+      : 
       <Slider {...settings}>
-        <div className='p-1'>
+      <div className='p-1'>
           <img src={image3} alt="No image" />
         </div>
         <div className='p-1'>
@@ -95,6 +145,7 @@ export const ComingSoon = () => {
           <img src={image3} alt="No image" />
         </div>
       </Slider>
+    }
     </div>
   );
 };
