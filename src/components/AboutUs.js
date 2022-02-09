@@ -9,7 +9,7 @@ import image7 from "../images/placeholder2.svg";
 
 export const AboutUs = () => {
 return (
-    <div className='about-wrap'>
+    <div id='about-id' className='about-wrap'>
         <div className='about-inner-wrap'>
         <div className='about-section'>
         <div className="container-fluid">

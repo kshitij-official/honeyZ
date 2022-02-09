@@ -5,6 +5,7 @@ import imageFDis from "../images/fdiscord-svg.svg";
 import imageFInstagram from "../images/finstagram.svg";
 import imageFlogomark from "../images/flogo-mark.svg";
 import imageMobile from "../images/footer-m.svg";
+import { HashLink } from 'react-router-hash-link';
 
 export const Footer = () => {
     return (
@@ -17,13 +18,13 @@ export const Footer = () => {
                     </div>
                     <div className="col">
                         <ul className='fotter-link'>
-                            <li><a href='#'><span>Home</span></a></li>
-                            <li><a href='#'><span>About</span></a></li>
-                            <li><a href='#'><span>Benefits</span></a></li>
-                            <li><a href='#'><span>Roadmap</span></a></li>
-                            <li><a href='#'><span>Partners</span></a></li>
-                            <li><a href='#'><span>Team</span></a></li>
-                            <li><a href='#'><span>Faq</span></a></li>
+                            <HashLink smooth to={'/#home-id'}><li><a href='#'><span>Home</span></a></li></HashLink>
+                            <HashLink smooth to={'/aboutus#about-id'}><li><a href='#'><span>About</span></a></li></HashLink>
+                            <HashLink smooth to={'/benefits#benefits-id'}><li><a href='#'><span>Benefits</span></a></li></HashLink>
+                            <HashLink smooth to={'/roadmap#roadmap-id'}><li><a href='#'><span>Roadmap</span></a></li></HashLink>
+                            <HashLink smooth to={'/partners#partners-id'}><li><a href='#'><span>Partners</span></a></li></HashLink>
+                            <HashLink smooth to={'/team#team-id'}><li><a href='#'><span>Team</span></a></li></HashLink>
+                            <HashLink smooth to={'/faq#faq-id'}><li><a href='#'><span>Faq</span></a></li></HashLink>
                         </ul>
                     </div>
                     <div className="col">
