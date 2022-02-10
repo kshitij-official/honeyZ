@@ -1,6 +1,7 @@
 import React from 'react';
 import image1 from "../images/patner.svg";
-import image2 from "../images/PartnersWindow.png";
+import image2 from "../images/DesktopPartner_Honeybum.png";
+import image3 from "../images/DesktopPartner_TBA.png";
 
 export const Partners = () => {
     return (
@@ -19,7 +20,7 @@ export const Partners = () => {
                     </div>
 
                     <div class="col-6">
-                        <img src={image2} alt="No image" />
+                        <img src={image3} alt="No image" />
                     </div>
                 </div>
 

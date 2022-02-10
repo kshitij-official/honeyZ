@@ -1,6 +1,13 @@
 import React, {useState, useEffect} from 'react';
-import image2 from "../images/BigWindow.svg";
-import image3 from "../images/heartsplaceholder.png";
+import image2 from "../images//BigWindow_Final.png"; 
+import image3 from "../images/slider-01.png";
+import image4 from "../images/slider-02.png";
+import image5 from "../images/slider-03.png";
+import image6 from "../images/slider-04.png";
+import image7 from "../images/slider-05.png";
+import image8 from "../images/slider-06.png";
+import image9 from "../images/slider-07.png";
+import image10 from "../images/slider-08.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -91,58 +98,58 @@ export const ComingSoon = () => {
         <img src={image3} alt="No image"/>
         </div>
         <div className='p-3'>
-        <img src={image3} alt="No image"/>
+        <img src={image4} alt="No image"/>
         </div>
         <div className='p-3'>
-        <img src={image3} alt="No image"/>
+        <img src={image5} alt="No image"/>
         </div>
         <div className='p-3'>
-        <img src={image3} alt="No image"/>
+        <img src={image6} alt="No image"/>
         </div>
         <div className='p-3'>
-        <img src={image3} alt="No image"/>
+        <img src={image7} alt="No image"/>
         </div>
         <div className='p-3'>
-        <img src={image3} alt="No image"/>
+        <img src={image8} alt="No image"/>
         </div>
         <div className='p-3'>
-        <img src={image3} alt="No image"/>
+        <img src={image9} alt="No image"/>
         </div>
         <div className='p-3'>
-        <img src={image3} alt="No image"/>
+        <img src={image10} alt="No image"/>
         </div>
         <div className='p-3'>
-        <img src={image3} alt="No image"/>
+        <img src={image5} alt="No image"/>
         </div>
       </section>
       : 
       <Slider {...settings}>
-      <div className='p-1'>
+      <div className='p-1 sliden'>
           <img src={image3} alt="No image" />
         </div>
-        <div className='p-1'>
-          <img src={image3} alt="No image" />
+        <div className='p-1 sliden'>
+          <img src={image4} alt="No image" />
         </div>
-        <div className='p-1'>
-          <img src={image3} alt="No image" />
+        <div className='p-1 sliden'>
+          <img src={image5} alt="No image" />
         </div>
-        <div className='p-1'>
-          <img src={image3} alt="No image" />
+        <div className='p-1 sliden'>
+          <img src={image6} alt="No image" />
         </div>
-        <div className='p-1'>
-          <img src={image3} alt="No image" />
+        <div className='p-1 sliden'>
+          <img src={image7} alt="No image" />
         </div>
-        <div className='p-1'>
-          <img src={image3} alt="No image" />
+        <div className='p-1 sliden'>
+          <img src={image8} alt="No image" />
         </div>
-        <div className='p-1'>
-          <img src={image3} alt="No image" />
+        <div className='p-1 sliden'>
+          <img src={image9} alt="No image" />
         </div>
-        <div className='p-1'>
-          <img src={image3} alt="No image" />
+        <div className='p-1 sliden'>
+          <img src={image10} alt="No image" />
         </div>
-        <div className='p-1'>
-          <img src={image3} alt="No image" />
+        <div className='p-1 sliden'>
+          <img src={image5} alt="No image" />
         </div>
       </Slider>
     }

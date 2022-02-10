@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import image1 from "../images/logo.svg";
 import image2 from "../images/logo-mob.svg";
 import image3 from "../images/close.svg";
-import image4 from "../images/placeholder.jpg";
+import image4 from "../images/Mobile_SidebarHoneyz2.png";
 import { HashLink } from 'react-router-hash-link';
 
 export const Header = () => {

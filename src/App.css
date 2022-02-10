@@ -52,6 +52,11 @@ html body{background: #ffece9;}
   z-index: -1;
   pointer-events: none; transition: all .3s;
 }
+
+.sliden{
+ width: 75% !important;
+}
+
 *:focus{outline: 0;}
 .nav-item:last-child:after {content: ""; position: absolute; top:0; left:0;
   background: url(/src/images/pink-g.svg) no-repeat;
@@ -206,7 +211,8 @@ i.icon-fa:hover {opacity: .7;}
 .team-grid {
   padding: 0 5px;
 }
-.team-img img{width:100%;    opacity: 0;
+.team-img img{width:100%;    
+  /* opacity: 0; */
 }
   .about-icon img{margin: 0;}
   .about-listing p{margin: 0;}
@@ -233,6 +239,9 @@ ul.benefits-listing {
 }
 .benefits-left img{    width: 100%;
   height: 100%;
+  /*Added top and position*/
+  top: 40px;
+  position: relative;
   object-fit: cover;}
 .benefits-listing li{ position: relative;
   list-style: none;
@@ -326,7 +335,8 @@ ul.benefits-listing {
   font-family: "Lato";
   text-align: center; margin: 0; padding: 0;}
   .team-img{    width: 100%;background-color: #b7b7b7;
-    border: 5px solid #fff;    margin: 0 0 15px;
+    /* border: 5px solid #fff; */
+        margin: 0 0 15px;
     border-radius: 30px;}
 
     .faq-wrapper{padding: 70px 20px}
@@ -573,7 +583,9 @@ ul.social-links.mobile-show li{    display: inline-block;}
     background-color: #fea6c5;background-image:none;}
     .placeholder-mobile.mobile-show{    float: right;
       max-width: 200px;
-      right: -19px;
+      /* right: -19px; */
+      right: -70px;
+      top: 25px;
       position: relative}
     .header-section .navbar-expand-lg .navbar-collapse{    display: none !important; position: fixed;
       top: 0;
@@ -676,7 +688,8 @@ ul.social-links.mobile-show li{    display: inline-block;}
 .about-icon img{padding: 8px; display: block;}
 .team-wrapper {
   padding: 50px 20px 10px;}
-  .team-blocks .col-2{width: 50%;}
+  /* .team-blocks .col-2{width: 50%;} */
+  .team-blocks .col{flex: 50%;}
   .patners-title {
     padding: 0 0 30px;
 }
