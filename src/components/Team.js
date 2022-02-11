@@ -106,7 +106,7 @@ export const Team = () => {
               </div>
               <div class="team-title">
                 <h3>Ben</h3>
-                <p>Web Development</p>
+                <p>Tech Advisor</p>
               </div>
             </div>
           </div>
