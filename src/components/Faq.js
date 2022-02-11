@@ -1,5 +1,5 @@
 import React from 'react';
-import image1 from "../images/FINAL1_DesktopFAQVector.png";
+import image1 from "../images/FINAL1_DesktopFAQVector.svg";
 
 export const Faq = () => {
     return (
