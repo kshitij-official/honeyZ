@@ -295,7 +295,10 @@ ul.benefits-listing {
 .roadmap-listing ul > li{list-style: none; background: url(images/r-star.svg) no-repeat;padding: 1px 0 0 25px;background-position: 0px 4px;}
 .roadmap-listing ul li ul li{background: none; list-style-type: disc;    padding: 0 0 0 20px; list-style-position: inside;}
 
-.roadmap2-wrapper{padding: 130px 0;}
+.roadmap2-wrapper {
+  padding: 130px 0;
+  display: none;
+}
 #root .roadmap2-wrapper .container{max-width: 1110px;}
 .roadmap2-wrapper .roadmap-title img {
   margin: 0 0 40px;
