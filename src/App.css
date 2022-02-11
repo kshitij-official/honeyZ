@@ -373,21 +373,7 @@ ul.benefits-listing {
     .fotter-section ul li:last-child {
     }
     .copyright-sec{border-top: 2px solid #fff}
-    .fotter-section ul.fotter-link a:before {
-      content: "";
-      position: absolute;
-      top: -30px;
-      left: 50%;
-      background: url(images/footer-hover.png) no-repeat;
-      background-position: center top;
-      display: inline-block;
-      width: 110%;    opacity: 0;
-      visibility: hidden;
-      height: 0;
-      z-index: -1;
-      pointer-events: none; background-size: 100% 100%;
-      transition: all .3s;    transform: translateX(-50%);
-  }
+    
   .fotter-section ul.fotter-link li:hover a::before {opacity: 1;
     visibility: visible;height: calc(100% + 30px);}
     ul.fotter-link li a {
