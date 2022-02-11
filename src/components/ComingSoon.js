@@ -8,6 +8,7 @@ import image7 from "../images/slider-05.png";
 import image8 from "../images/slider-06.png";
 import image9 from "../images/slider-07.png";
 import image10 from "../images/slider-08.png";
+import image11 from "../images/Mobile_Hearts.gif";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -94,7 +95,7 @@ export const ComingSoon = () => {
       {width <= 768 ?
       <section className="center slider d-flex justify-content-center">
         <div className='comingSoonMobile'>
-          <img src='../images/Mobile_Hearts.gif'/>
+        <img src={image11} alt="No image" />
         </div>
       </section>
       : 
