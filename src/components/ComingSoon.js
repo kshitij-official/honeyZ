@@ -81,7 +81,6 @@ export const ComingSoon = () => {
                     <li><i className="icon-fa icon-twitter"> </i></li>
                     <li><i className="icon-fa icon-discord"></i></li>
                     <li><i className="icon-fa icon-instagram"></i></li>
-                    <li><i className="icon-fa icon-logomark"></i></li>
                   </ul>
                 </div>
               </div>
