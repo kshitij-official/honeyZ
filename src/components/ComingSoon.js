@@ -32,7 +32,7 @@ export const ComingSoon = () => {
     slidesToScroll: 1,
     initialSlide: 0,
     autoplay: true,
-    speed: 1000,
+    speed: 3000,
     autoplaySpeed: 0,
     cssEase: "linear",
     responsive: [
