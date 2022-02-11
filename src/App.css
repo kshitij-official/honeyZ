@@ -373,7 +373,7 @@ ul.benefits-listing {
     .fotter-section ul li:last-child {
     }
     .copyright-sec{border-top: 2px solid #fff}
-    
+
   .fotter-section ul.fotter-link li:hover a::before {opacity: 1;
     visibility: visible;height: calc(100% + 30px);}
     ul.fotter-link li a {
@@ -570,12 +570,13 @@ ul.social-links.mobile-show li{    display: inline-block;}
   .header-section .navbar-light .navbar-toggler-icon{width: 22px; position:relative;
     height: 2px;
     background-color: #fea6c5;background-image:none;}
-    .placeholder-mobile.mobile-show{    float: right;
-      max-width: 200px;
-      /* right: -19px; */
-      right: -70px;
+    .placeholder-mobile.mobile-show {
+      float: right;
+      max-width: 146px;
+      position: relative;
+      right: -20px;
       top: 25px;
-      position: relative}
+    }
     .header-section .navbar-expand-lg .navbar-collapse{    display: none !important; position: fixed;
       top: 0;
       left: 0;    overflow: auto;
