@@ -152,6 +152,14 @@ i.icon-fa:hover {opacity: .7;}
   .col.comin-right {
     flex: 1 0 50%;
 }
+
+.comingSoonMobile {
+  max-width: 300px;
+  height: auto;
+}
+
+
+
 .col.coming-left {
   flex: 1 0 20%;
 }
