@@ -94,7 +94,7 @@ export const ComingSoon = () => {
       {width <= 768 ?
       <section className="center slider d-flex justify-content-center">
         <div className='comingSoonMobile'>
-          <img src='src\images\Mobile_Hearts.gif'/>
+          <img src='../images/Mobile_Hearts.gif'/>
         </div>
       </section>
       : 
