@@ -93,33 +93,7 @@ export const ComingSoon = () => {
       </div>
       {width <= 768 ?
       <section className="center slider d-flex justify-content-center">
-        <div className='p-3'>
-        <img src={image3} alt="No image"/>
-        </div>
-        <div className='p-3'>
-        <img src={image4} alt="No image"/>
-        </div>
-        <div className='p-3'>
-        <img src={image5} alt="No image"/>
-        </div>
-        <div className='p-3'>
-        <img src={image6} alt="No image"/>
-        </div>
-        <div className='p-3'>
-        <img src={image7} alt="No image"/>
-        </div>
-        <div className='p-3'>
-        <img src={image8} alt="No image"/>
-        </div>
-        <div className='p-3'>
-        <img src={image9} alt="No image"/>
-        </div>
-        <div className='p-3'>
-        <img src={image10} alt="No image"/>
-        </div>
-        <div className='p-3'>
-        <img src={image5} alt="No image"/>
-        </div>
+        
       </section>
       : 
       <Slider {...settings}>
