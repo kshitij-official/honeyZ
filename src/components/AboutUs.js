@@ -36,16 +36,16 @@ export const AboutUs = () => {
                       </p>
                     </li>
                     <li>
-                      <span className="about-icon female-icon">
-                        <img src={image5} alt="No image" />
+                      <span className="about-icon diamond-icon">
+                        <img src={image6} alt="No image" />
                       </span>
                       <p>
                       All Honeyz are the most creative fashionistas but some of them are more rare than others. These dolls  are based on more than 278 hand drawn traits.{" "}
                       </p>
                     </li>
                     <li>
-                      <span className="about-icon diamond-icon">
-                        <img src={image6} alt="No image" />
+                      <span className="about-icon female-icon">
+                        <img src={image5} alt="No image" />
                       </span>
                       <p>
                         {" "}
