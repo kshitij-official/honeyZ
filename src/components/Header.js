@@ -27,7 +27,7 @@ export const Header = () => {
       <div className="container">
         <div className="row justify-content-between">
           <div className="col">
-            <a className="logo-wrap" href='#'>
+            <a className="logo-wrap" href='/'>
               <img src={image1} alt="No image" />
             </a>
           </div>
