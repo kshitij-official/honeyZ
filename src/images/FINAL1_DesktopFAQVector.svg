@@ -30,7 +30,7 @@
       }
 
       .an, .as, .d, .h, .m {
-        font-family: Lato-Regular, Lato;
+        font-family: Lato;
       }
 
       .e {
@@ -42,7 +42,7 @@
       }
 
       .au, .av, .f, .j {
-        font-family: Lato-Bold, Lato;
+        font-family: Lato;
         font-weight: 700;
       }
 
