@@ -50,7 +50,7 @@ export const Team = () => {
               </div>
               <div class="team-title">
                 <h3>Ayesha</h3>
-                <p>Social Media Marketing</p>
+                <p>Marketing &amp; Project Consultant</p>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ export const Team = () => {
               </div>
               <div class="team-title">
                 <h3>Shirza</h3>
-                <p>Marketing & Collaborations </p>
+                <p>Marketing &amp; Collaborations </p>
               </div>
             </div>
           </div>
