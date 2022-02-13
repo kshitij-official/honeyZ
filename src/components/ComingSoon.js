@@ -79,9 +79,9 @@ export const ComingSoon = () => {
                 <a href='https://twitter.com/honeyznft' className='btn2'>Follow for pre-sale updates <span class="arrow"></span></a>
                 <div className="col mobile-show">
                   <ul className='social-links'>
-                    <li><a href-='https://twitter.com/honeyznft'><i className="icon-fa icon-twitter"></i></a></li>
-                    <li><a href-='https://discord.com/invite/pT52wbTFJ7'><i className="icon-fa icon-discord"></i></a></li>
-                    <li><a href-='https://www.instagram.com/honeyznft/'><i className="icon-fa icon-instagram"></i></a></li>
+                    <a href-='https://twitter.com/honeyznft'><li><i className="icon-fa icon-twitter"></i></li></a>
+                    <a href-='https://discord.com/invite/pT52wbTFJ7'><li><i className="icon-fa icon-discord"></i></li></a>
+                    <a href-='https://www.instagram.com/honeyznft/'><li><i className="icon-fa icon-instagram"></i></li></a>
                   </ul>
                 </div>
               </div>
