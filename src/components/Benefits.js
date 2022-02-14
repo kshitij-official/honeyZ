@@ -22,7 +22,7 @@ export const Benefits = () => {
                                             <span className='benefits-icon like-icon'>
                                                 <img src={image3} alt="No image" />
                                             </span>
-                                            <p>You have complete ownership and </p>
+                                            <p>You have complete ownership and IP rights to your NFT</p>
                                         </li>
                                         <li>
                                             <span className='benefits-icon heel-icon'>
