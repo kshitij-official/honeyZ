@@ -75,8 +75,8 @@ export const ComingSoon = () => {
                   the blockchain runway.<br /><br />  Our mission is to create opportunities and educate women about web3
                   and crypto while expressing self confidence
                   through a unique sense of fashion.</p>
-                <a href='https://discord.gg/pT52wbTFJ7' className='btn1'>Get on Whitelist</a>
-                <a href='https://twitter.com/honeyznft' className='btn2'>Follow for pre-sale updates <span class="arrow"></span></a>
+                <a href='https://discord.gg/pT52wbTFJ7' className='btn1'>Get on presale</a>
+                <a href='https://twitter.com/honeyznft' className='btn2'>Follow for presale updates <span class="arrow"></span></a>
                 <div className="col mobile-show">
                   <ul className='social-links'>
                     <a href='https://twitter.com/honeyznft'><li><i className="icon-fa icon-twitter"></i></li></a>
