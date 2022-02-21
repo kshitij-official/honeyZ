@@ -57,7 +57,6 @@ export const Header = () => {
                 </ul>
                 <ul className='social-links mobile-show'>
                   <li><a href="https://twitter.com/honeyznft"><i className="icon-fa icon-twitter"></i></a></li>
-                  <li><a href="https://discord.gg/pT52wbTFJ7"><i className="icon-fa icon-discord"></i></a></li>
                   <li><a href="https://instagram.com/honeyznft"><i className="icon-fa icon-instagram"></i></a></li>
                 </ul>
                 <div className="placeholder-mobile mobile-show">
@@ -67,12 +66,11 @@ export const Header = () => {
             </nav>
           </div>
           <div className="col mobile-show">
-            <a className="btn-mint" href="https://discord.gg/pT52wbTFJ7">Get on presale</a>
+            <a className="btn-mint" href="https://twitter.com/honeyznft">Get on presale</a>
           </div>
           <div className="col desktop-show">
             <ul className='social-links'>
                   <li><a href="https://twitter.com/honeyznft"><i className="icon-fa icon-twitter"></i></a></li>
-                  <li><a href="https://discord.gg/pT52wbTFJ7"><i className="icon-fa icon-discord"></i></a></li>
                   <li><a href="https://instagram.com/honeyznft"><i className="icon-fa icon-instagram"></i></a></li>
             </ul>
           </div>
