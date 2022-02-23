@@ -5,9 +5,10 @@ import image3 from "../images/Desktop_AmandaHoneyz.png";
 import image4 from "../images/Desktop_AyeshaHoneyz.png";
 import image5 from "../images/NEWShirza_DesktopTeam.png";
 import image6 from "../images/NEWKyeria_DesktopTeam.png";
-import image7 from "../images/Desktop_NicoleHoneyz.png";
+import image7 from "../images/Desktop_NatalieTeam.png";
 import image8 from "../images/Desktop_TamoorHoneyz.png";
 import image9 from "../images/Desktop_BenHoneyz.png";
+import image10 from "../images/Desktop_NatalieTeam.png";
 
 export const Team = () => {
   return (
@@ -28,18 +29,7 @@ export const Team = () => {
               </div>
               <div class="team-title">
                 <h3>Alicia</h3>
-                <p>Head Designer </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="team-grid">
-              <div class="team-img">
-                <img src={image3} alt="No image" />
-              </div>
-              <div class="team-title">
-                <h3>Amanda</h3>
-                <p>Marketing Lead</p>
+                <p>Artist &amp; Creative Director</p>
               </div>
             </div>
           </div>
@@ -50,7 +40,7 @@ export const Team = () => {
               </div>
               <div class="team-title">
                 <h3>Ayesha</h3>
-                <p>Marketing &amp; Project Consultant</p>
+                <p>Marketing Lead</p>
               </div>
             </div>
           </div>
@@ -61,11 +51,10 @@ export const Team = () => {
               </div>
               <div class="team-title">
                 <h3>Shirza</h3>
-                <p>Marketing &amp; Collaborations </p>
+                <p>Partnerships &amp; Collaborations</p>
               </div>
             </div>
           </div>
-          {/* <div class="w-100"></div> */}
           <div class="col">
             <div class="team-grid">
               <div class="team-img">
@@ -73,18 +62,30 @@ export const Team = () => {
               </div>
               <div class="team-title">
                 <h3>Kyeria</h3>
-                <p>Influencer Outreach</p>
+                <p>Partnerships &amp; Collaborations </p>
               </div>
             </div>
           </div>
+          {/* <div class="w-100"></div> */}
           <div class="col">
             <div class="team-grid">
               <div class="team-img">
                 <img src={image7} alt="No image" />
               </div>
               <div class="team-title">
-                <h3>Nicole</h3>
-                <p>Influencer Outreach</p>
+                <h3>Natalie</h3>
+                <p>Community Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="team-grid">
+              <div class="team-img">
+                <img src={image10} alt="No image" />
+              </div>
+              <div class="team-title">
+                <h3>Idalis</h3>
+                <p>Marketing &amp; Moderator</p>
               </div>
             </div>
           </div>

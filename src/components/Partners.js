@@ -20,7 +20,7 @@ export const Partners = () => {
                     </div>
 
                     <div class="col-6">
-                    <a href='https://twitter.com/honeyznft'><img src={image3} alt="No image" /></a>
+                    <a href='https://www.baddiesintech.com'><img src={image3} alt="No image" /></a>
                     </div>
                 </div>
 
