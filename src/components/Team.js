@@ -8,7 +8,7 @@ import image6 from "../images/NEWKyeria_DesktopTeam.png";
 import image7 from "../images/Desktop_NatalieTeam.png";
 import image8 from "../images/Desktop_TamoorHoneyz.png";
 import image9 from "../images/Desktop_BenHoneyz.png";
-import image10 from "../images/Desktop_NatalieTeam.png";
+import image10 from "../images/Desktop_IdalisTeam.png";
 
 export const Team = () => {
   return (
