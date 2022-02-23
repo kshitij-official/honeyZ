@@ -1,7 +1,7 @@
 import React from 'react';
 import image1 from "../images/patner.svg";
 import image2 from "../images/DesktopPartner_Honeybum.png";
-import image3 from "../images/DesktopPartner_TBA.png";
+import image3 from "../images/Desktop_BaddiesinTech";
 
 export const Partners = () => {
     return (
