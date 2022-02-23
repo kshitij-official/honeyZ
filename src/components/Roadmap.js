@@ -1,6 +1,6 @@
 import React from 'react';
 import image1 from "../images/road-map.svg";
-import image3 from "../images/pre.svg";
+import image3 from "../images/Roadmap01.svg";
 import image4 from "../images/pre1.svg";
 import image5 from "../images/sold1.svg";
 import image6 from "../images/sold2.svg";

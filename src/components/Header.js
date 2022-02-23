@@ -44,7 +44,7 @@ export const Header = () => {
                   <img src={image2} alt="No image" />
                 </a>
                 <div className="col-mobile mobile-show">
-                  <a className="btn-mint" href="https://twitter.com/honeyznft">Get on presale</a>
+                  <a className="btn-mint" href="https://twitter.com/honeyznft">MINT COMING SOON</a>
                 </div>
                 <ul className='header-link navbar-nav me-auto mb-2 mb-lg-0'>
                   <HashLink smooth to={'/#home-id'}><li className="nav-item"><a className="nav-link" href="#">Home</a></li></HashLink>
@@ -66,7 +66,7 @@ export const Header = () => {
             </nav>
           </div>
           <div className="col mobile-show">
-            <a className="btn-mint" href="https://twitter.com/honeyznft">Get on presale</a>
+            <a className="btn-mint" href="https://twitter.com/honeyznft">MINT COMING SOON</a>
           </div>
           <div className="col desktop-show">
             <ul className='social-links'>
