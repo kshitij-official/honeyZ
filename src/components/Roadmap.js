@@ -31,7 +31,7 @@ export const Roadmap = () => {
                                         <img src={image4} alt="No image" />
                                     </span>
                                     <ul>
-                                        <li>2.5% of primary sales and 5% of secondary invested into emerging women lead projects</li>
+                                        <li>10% of primary sales and 10% of net secondary invested into emerging women lead projects</li>
                                     </ul>
                                 </div>
                                 <div>

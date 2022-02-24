@@ -51,7 +51,7 @@ export const AboutUs = () => {
                         {" "}
                         We believe that women will be on the forefront of tech and web3, part of our proceeds will go towards driving that mission forward:{" "}<br /><br />
                         - 5 % of primary sales and 10% of secondary sales will go towards organizations which aim to close the gender gaps in technology.<br />
-                        - 2.5% of primary sales and 10% of secondary sales will be invested  into emerging women lead projects via HoneyzDAO that will be owned and governed by our community.
+                        - 10% of primary sales and 10% of net secondary sales will be invested  into emerging women lead projects via HoneyzDAO that will be owned and governed by our community.
                       </p>
                     </li>
                   </ul>

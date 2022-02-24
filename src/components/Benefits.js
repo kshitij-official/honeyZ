@@ -42,7 +42,7 @@ export const Benefits = () => {
                                             </span>
                                             <p>We will launch HoneyzDAO which will own and govern a community wallet that will invest in emerging women lead projects. </p>
                                             <p className='chat-reply'>The community has and will always be central to empowering women in under representative industries. We believe in collaborative intelligence and that thousands of community members are smarter than a team of founders.</p>
-                                            <p className='chat-reply'>2.5% of primary sales and 5% of secondary sales will be sent to a community wallet. </p>
+                                            <p className='chat-reply'>10% of primary sales and 10% of net secondary sales will be sent to a community wallet. </p>
                                         </li>
                                     </ul>
                                 </div>
