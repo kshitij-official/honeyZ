@@ -81,6 +81,7 @@ export const ComingSoon = () => {
                   <ul className='social-links'>
                     <a href='https://twitter.com/honeyznft'><li><i className="icon-fa icon-twitter"></i></li></a>
                     <a href='https://www.instagram.com/honeyznft/'><li><i className="icon-fa icon-instagram"></i></li></a>
+                    <li><a href="https://discord.gg/pT52wbTFJ7"><i className="icon-fa icon-discord"></i></a></li>
                   </ul>
                 </div>
               </div>

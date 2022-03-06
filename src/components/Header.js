@@ -58,6 +58,7 @@ export const Header = () => {
                 <ul className='social-links mobile-show'>
                   <li><a href="https://twitter.com/honeyznft"><i className="icon-fa icon-twitter"></i></a></li>
                   <li><a href="https://instagram.com/honeyznft"><i className="icon-fa icon-instagram"></i></a></li>
+                  <li><a href="https://discord.gg/pT52wbTFJ7"><i className="icon-fa icon-discord"></i></a></li>
                 </ul>
                 <div className="placeholder-mobile mobile-show">
                   <img src={image4} alt="No image" />
@@ -72,6 +73,7 @@ export const Header = () => {
             <ul className='social-links'>
                   <li><a href="https://twitter.com/honeyznft"><i className="icon-fa icon-twitter"></i></a></li>
                   <li><a href="https://instagram.com/honeyznft"><i className="icon-fa icon-instagram"></i></a></li>
+                  <li><a href="https://discord.gg/pT52wbTFJ7"><i className="icon-fa icon-discord"></i></a></li>
             </ul>
           </div>
         </div>
