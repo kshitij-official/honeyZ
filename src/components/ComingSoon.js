@@ -122,7 +122,7 @@ export const ComingSoon = () => {
                   and crypto while expressing self confidence
                   through a unique sense of fashion.</p>
                 {/* <a href='https://twitter.com/honeyznft' className='btn1'>Mint coming soon</a> */}
-                 
+                 /*test*/
                 {accountCoonected && <button className='btn1' onClick={openMetaMask}>Mint NFT</button>}
                 {!accountCoonected && <button className='btn1' onClick={handleAccounts}>Connect Wallet</button>}
                  
