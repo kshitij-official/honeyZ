@@ -77,7 +77,7 @@ export const ComingSoon = () => {
 		const { amount } = event.target.elements;
 		if(isNaN(amount.value))
 		{
-			return alert("Please enter number only");
+			return alert("Please enter a number only");
 		}
 		if(amount.value > 5)
 		{
@@ -144,13 +144,13 @@ export const ComingSoon = () => {
                     accountCoonected 
                     && 
                     <form onSubmit={handleMint}>
-                      <input type="number" name="amount" id="amount" placeholder="1" /> 
+                      <input type="number" name="amount" id="amount" placeholder="0" /> 
                       <button type="submit" className='btn1'>Mint NFT</button>
                     </form>
                   }
                   {!accountCoonected && <button className='btn1' onClick={handleAccounts}>Connect Wallet</button>}
 
-                <a href='https://twitter.com/honeyznft' className='btn2'>Follow for presale updates <span class="arrow"></span></a>
+                <a href='https://twitter.com/honeyznft' className='btn2'>Follow for updates <span class="arrow"></span></a>
                 <div className="col mobile-show">
                   <ul className='social-links'>
                     <a href='https://twitter.com/honeyznft'><li><i className="icon-fa icon-twitter"></i></li></a>
