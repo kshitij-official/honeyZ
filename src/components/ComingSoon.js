@@ -145,7 +145,7 @@ export const ComingSoon = () => {
                     && 
                     <form onSubmit={handleMint}>
                       <input type="number" name="amount" id="amount" placeholder="0" /> 
-                      <button type="submit" className='btn1'>Mint NFT</button>
+                      <button type="submit" className='btn1'>Mint</button>
                     </form>
                   }
                   {!accountCoonected && <button className='btn1' onClick={handleAccounts}>Connect Wallet</button>}

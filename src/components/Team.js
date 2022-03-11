@@ -51,7 +51,7 @@ export const Team = () => {
               </div>
               <div class="team-title">
                 <h3>Shirza</h3>
-                <p>Partnerships &amp; Collaborations</p>
+                <p>Partnerships &amp; Marketing Lead</p>
               </div>
             </div>
           </div>
@@ -67,17 +67,6 @@ export const Team = () => {
             </div>
           </div>
           {/* <div class="w-100"></div> */}
-          <div class="col">
-            <div class="team-grid">
-              <div class="team-img">
-                <img src={image7} alt="No image" />
-              </div>
-              <div class="team-title">
-                <h3>Natalie</h3>
-                <p>Community Manager</p>
-              </div>
-            </div>
-          </div>
           <div class="col">
             <div class="team-grid">
               <div class="team-img">
