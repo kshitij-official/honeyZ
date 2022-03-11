@@ -120,7 +120,8 @@ export const ComingSoon = () => {
                   the blockchain runway.<br /><br />  Our mission is to create opportunities and educate women about web3
                   and crypto while expressing self confidence
                   through a unique sense of fashion.</p>
-                <a href='https://twitter.com/honeyznft' className='btn1'>MINT COMING SOON</a>
+                  {accountCoonected && <button className='btn1' onClick={openMetaMask}>Mint NFT</button>}
+                  {!accountCoonected && <button className='btn1' onClick={handleAccounts}>Connect Wallet</button>}
                 <a href='https://twitter.com/honeyznft' className='btn2'>Follow for presale updates <span class="arrow"></span></a>
                 <div className="col mobile-show">
                   <ul className='social-links'>
