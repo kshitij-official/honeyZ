@@ -79,9 +79,9 @@ export const ComingSoon = () => {
 		{
 			return alert("Please enter a number only");
 		}
-		if(amount.value > 0)
+		if(amount.value > 5)
 		{
-			return alert("Minting is temporarily disabled.");
+			return alert("Please mint less than 5 nfts at a time");
 		}
 
 		openMetaMask(amount.value);
