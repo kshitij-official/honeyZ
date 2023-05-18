@@ -3,8 +3,8 @@ import image1 from "../images/team.svg";
 import image2 from "../images/Test_DesktopAliciaTeam2.png";
 import image3 from "../images/Desktop_AmandaHoneyz.png";
 import image4 from "../images/Desktop_AyeshaHoneyz.png";
-import image5 from "../images/Desktop_ShirzaHoneyz.png";
-import image6 from "../images/Desktop_KyeriaHoneyz.png";
+import image5 from "../images/NEWShirza_DesktopTeam.png";
+import image6 from "../images/NEWKyeria_DesktopTeam.png";
 import image7 from "../images/Desktop_NicoleHoneyz.png";
 import image8 from "../images/Desktop_TamoorHoneyz.png";
 import image9 from "../images/Desktop_BenHoneyz.png";
@@ -50,7 +50,7 @@ export const Team = () => {
               </div>
               <div class="team-title">
                 <h3>Ayesha</h3>
-                <p>Social Media Marketing</p>
+                <p>Marketing &amp; Project Consultant</p>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ export const Team = () => {
               </div>
               <div class="team-title">
                 <h3>Shirza</h3>
-                <p>Marketing & Collaborations </p>
+                <p>Marketing &amp; Collaborations </p>
               </div>
             </div>
           </div>
@@ -106,7 +106,7 @@ export const Team = () => {
               </div>
               <div class="team-title">
                 <h3>Ben</h3>
-                <p>Web Development</p>
+                <p>Tech Advisor</p>
               </div>
             </div>
           </div>

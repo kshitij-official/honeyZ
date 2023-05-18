@@ -16,11 +16,11 @@ export const Partners = () => {
                 </div>
                 <div className='patner-blocks row'>
                     <div class="col-6">
-                        <img src={image2} alt="No image" />
+                        <a href="https://www.honeybum.com"><img src={image2} alt="No image" /></a>
                     </div>
 
                     <div class="col-6">
-                        <img src={image3} alt="No image" />
+                    <a href='https://twitter.com/honeyznft'><img src={image3} alt="No image" /></a>
                     </div>
                 </div>
 

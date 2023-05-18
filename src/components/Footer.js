@@ -29,10 +29,9 @@ export const Footer = () => {
                     </div>
                     <div className="col">
                         <ul className='social-logo'>
-                            <li><img src={imageFTwit} alt="No image" /></li>
-                            <li><img src={imageFDis} alt="No image" /></li>
-                            <li><img src={imageFInstagram} alt="No image" /></li>
-                            <li><img src={imageFlogomark} alt="No image" /></li>
+                            <li><a href='https://twitter.com/honeyznft'><img src={imageFTwit} alt="No image" /></a></li>
+                            <li><a href='https://discord.com/invite/pT52wbTFJ7'><img src={imageFDis} alt="No image" /></a></li>
+                            <li><a href='https://www.instagram.com/honeyznft/'><img src={imageFInstagram} alt="No image" /></a></li>
                         </ul>
                     </div>
                 </div>

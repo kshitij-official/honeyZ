@@ -23,9 +23,7 @@ export const AboutUs = () => {
                         <img src={image3} alt="No image" />
                       </span>
                       <p>
-                        Honeyz is the first metaverse fashion doll. We are a
-                        community of 10,000 fashion forward women who are owning
-                        the blockchain runway.
+                      Honeyz is the first metaverse fashion doll, we are a community of 10,000 fashion forward women who are owning the blockchain runway. 
                       </p>
                     </li>
                     <li>
@@ -34,21 +32,7 @@ export const AboutUs = () => {
                       </span>
                       <p>
                         {" "}
-                        Part of the beauty of traditional fashion is the ability
-                        to wear a story, using physical materials as a tool of
-                        self-expression. Now that the digital space is
-                        transforming the world around us, it’s time for fashion
-                        to be reimagined, too.{" "}
-                      </p>
-                    </li>
-                    <li>
-                      <span className="about-icon female-icon">
-                        <img src={image5} alt="No image" />
-                      </span>
-                      <p>
-                        5 % of all proceeds will go towards organizations which
-                        aim to close the gender gaps in technology as well as
-                        creating new opportunities in order to educate women.{" "}
+                        Part of the beauty of traditional fashion is the ability to wear a story, using physical materials as a tool of self-expression. Now that the digital space is transforming the world around us, it’s time for fashion to be reimagined, too.{" "}
                       </p>
                     </li>
                     <li>
@@ -56,10 +40,18 @@ export const AboutUs = () => {
                         <img src={image6} alt="No image" />
                       </span>
                       <p>
+                      All Honeyz are the most creative fashionistas but some of them are more rare than others. These dolls  are based on more than 278 hand drawn traits.{" "}
+                      </p>
+                    </li>
+                    <li>
+                      <span className="about-icon female-icon">
+                        <img src={image5} alt="No image" />
+                      </span>
+                      <p>
                         {" "}
-                        All Honeyz are the most creative fashionistas but some
-                        of them are more rare than others. These dolls are based
-                        on more than 200 hand drawn traits.{" "}
+                        We believe that women will be on the forefront of tech and web3, part of our proceeds will go towards driving that mission forward:{" "}<br /><br />
+                        - 5 % of primary sales and 10% of secondary sales will go towards organizations which aim to close the gender gaps in technology.<br />
+                        - 2.5% of primary sales and 10% of secondary sales will be invested  into emerging women lead projects via HoneyzDAO that will be owned and governed by our community.
                       </p>
                     </li>
                   </ul>

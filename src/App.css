@@ -54,7 +54,7 @@ html body{background: #ffece9;}
 }
 
 .sliden{
- width: 75% !important;
+ width: 45% !important;
 }
 
 *:focus{outline: 0;}
@@ -123,9 +123,9 @@ i.icon-fa:hover {opacity: .7;}
 #root .coming-soom-wrap .container{    max-width: 1362px;}
 .coming-text {font-size: 14px;color: #414141;font-weight: 400;    max-width: 324px;  font-family: "Lato";}
 .arrow{display: inline-block; width:21px; height: 7px;; background: url(/src/images/arrow.svg) no-repeat;margin: 4px 0 0 9px;}
-.btn1{max-width: 263px; width:100%;
-  height: 54px;
-  border-radius: 20px;
+.btn1{max-width: 300px; width:100%;
+  height: 65px;
+  border-radius: 34px;
   background-color: #fea6c5;font-size: 16px;
   color: #ffffff;
   font-weight: 700;display: flex;
@@ -139,6 +139,7 @@ i.icon-fa:hover {opacity: .7;}
 .btn2{font-size: 14px;
   color: #ff84b0;max-width: 263px; width:100%;
   height: 37px;
+  max-width: 300px; width:100%;
   border-radius: 15px;display: flex;
   text-align: center;
   align-items: center;transition: all .3s;
@@ -152,6 +153,14 @@ i.icon-fa:hover {opacity: .7;}
   .col.comin-right {
     flex: 1 0 50%;
 }
+
+.comingSoonMobile {
+  max-width: 300px;
+  height: auto;
+}
+
+
+
 .col.coming-left {
   flex: 1 0 20%;
 }
@@ -295,7 +304,10 @@ ul.benefits-listing {
 .roadmap-listing ul > li{list-style: none; background: url(images/r-star.svg) no-repeat;padding: 1px 0 0 25px;background-position: 0px 4px;}
 .roadmap-listing ul li ul li{background: none; list-style-type: disc;    padding: 0 0 0 20px; list-style-position: inside;}
 
-.roadmap2-wrapper{padding: 130px 0;}
+.roadmap2-wrapper {
+  padding: 130px 0;
+  display: none;
+}
 #root .roadmap2-wrapper .container{max-width: 1110px;}
 .roadmap2-wrapper .roadmap-title img {
   margin: 0 0 40px;
@@ -370,21 +382,7 @@ ul.benefits-listing {
     .fotter-section ul li:last-child {
     }
     .copyright-sec{border-top: 2px solid #fff}
-    .fotter-section ul.fotter-link a:before {
-      content: "";
-      position: absolute;
-      top: -30px;
-      left: 50%;
-      background: url(images/footer-hover.png) no-repeat;
-      background-position: center top;
-      display: inline-block;
-      width: 110%;    opacity: 0;
-      visibility: hidden;
-      height: 0;
-      z-index: -1;
-      pointer-events: none; background-size: 100% 100%;
-      transition: all .3s;    transform: translateX(-50%);
-  }
+
   .fotter-section ul.fotter-link li:hover a::before {opacity: 1;
     visibility: visible;height: calc(100% + 30px);}
     ul.fotter-link li a {
@@ -581,12 +579,13 @@ ul.social-links.mobile-show li{    display: inline-block;}
   .header-section .navbar-light .navbar-toggler-icon{width: 22px; position:relative;
     height: 2px;
     background-color: #fea6c5;background-image:none;}
-    .placeholder-mobile.mobile-show{    float: right;
-      max-width: 200px;
-      /* right: -19px; */
-      right: -70px;
-      top: 25px;
-      position: relative}
+    .placeholder-mobile.mobile-show {
+      float: right;
+    max-width: 100px;
+    position: relative;
+    right: -20px;
+    top: -79px;
+    }
     .header-section .navbar-expand-lg .navbar-collapse{    display: none !important; position: fixed;
       top: 0;
       left: 0;    overflow: auto;
@@ -797,4 +796,8 @@ ul.benefits-listing{    padding:0 5px 0 35px}
 }
 .header-section .navbar-expand-lg .navbar-collapse.mobile-open{
   display: block !important;
+}
+
+a {
+  text-decoration: none !important;
 }
