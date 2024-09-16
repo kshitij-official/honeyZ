@@ -1,25 +1,25 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
+  'short_name': 'HoneyzNFT',
+  'name': 'The first metaverse fashion doll, we are a community of 10,000 fashion forward women who are owning the blockchain runway. Our mission is to create opportunities and educate women about web3 and crypto while expressing self confidence through a unique sense of fashion.',
+  'icons': [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      'src': '/honeyzfav.png',
+      'sizes': '64x64 32x32 24x24 16x16',
+      'type': 'image/x-icon'
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      'src': '/honeyzfav.png',
+      'type': 'image/png',
+      'sizes': '192x192'
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      'src': '/honeyzfav.png',
+      'type': 'image/png',
+      'sizes': '512x512'
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  'start_url': '.',
+  'display': 'standalone',
+  'theme_color': '#000000',
+  'background_color': '#ffffff'
 }

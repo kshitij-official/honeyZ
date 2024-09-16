@@ -1,11 +1,11 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 7" width="21" height="7">
+<svg version='1.2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 7' width='21' height='7'>
 	<title>New Project</title>
 	<style>
 		.s0 { fill: none;stroke: #ff84b0 } 
 		.s1 { fill: #ff84b0 } 
 	</style>
-	<g id="Group 11">
-		<path id="Line 1" class="s0" d="m0.5 3.5h16" />
-		<path id="Polygon 1" class="s1" d="m20.5 3.5l-5 3v-6z" />
+	<g id='Group 11'>
+		<path id='Line 1' class='s0' d='m0.5 3.5h16' />
+		<path id='Polygon 1' class='s1' d='m20.5 3.5l-5 3v-6z' />
 	</g>
 </svg>

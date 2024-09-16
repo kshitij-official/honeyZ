@@ -1,14 +1,14 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 36" width="30" height="36">
+<svg version='1.2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 36' width='30' height='36'>
 	<title>New Project</title>
 	<defs>
-		<linearGradient id="g1" x1="15" y1=".3" x2="15" y2="35.7" gradientUnits="userSpaceOnUse">
-			<stop offset="0" stop-color="#ffeaf1"/>
-			<stop offset="1" stop-color="#fea6c5"/>
-			<stop offset="1" stop-color="#ffffff"/>
+		<linearGradient id='g1' x1='15' y1='.3' x2='15' y2='35.7' gradientUnits='userSpaceOnUse'>
+			<stop offset='0' stop-color='#ffeaf1'/>
+			<stop offset='1' stop-color='#fea6c5'/>
+			<stop offset='1' stop-color='#ffffff'/>
 		</linearGradient>
 	</defs>
 	<style>
 		.s0 { fill: url(#g1) } 
 	</style>
-	<path id="Path 86" class="s0" d="m30.4 18c-11.2 2.6-13.1 4.9-15.4 17.7c-2.3-12.8-4.2-15-15.4-17.7c11.2-2.7 13.1-4.8 15.4-17.7c2.3 12.9 4.2 15 15.4 17.7z" />
+	<path id='Path 86' class='s0' d='m30.4 18c-11.2 2.6-13.1 4.9-15.4 17.7c-2.3-12.8-4.2-15-15.4-17.7c11.2-2.7 13.1-4.8 15.4-17.7c2.3 12.9 4.2 15 15.4 17.7z' />
 </svg>

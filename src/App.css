@@ -45,7 +45,7 @@ html body{background: #ffece9;}
 .header-section .row {flex-wrap: inherit;     margin: 0 -5px;}
 #root .container{max-width: 1635px;}
 .header-menus.navbar{padding: 0;}
-.nav-item:before {content: ""; position: absolute; top:0; left:0;
+.nav-item:before {content: ''; position: absolute; top:0; left:0;
   background: url(/src/images/pink-g.svg) no-repeat;background-position: bottom left;
   display: inline-block;    width: 100%;
   height: 100%;
@@ -54,11 +54,11 @@ html body{background: #ffece9;}
 }
 
 .sliden{
- width: 75% !important;
+ width: 45% !important;
 }
 
 *:focus{outline: 0;}
-.nav-item:last-child:after {content: ""; position: absolute; top:0; left:0;
+.nav-item:last-child:after {content: ''; position: absolute; top:0; left:0;
   background: url(/src/images/pink-g.svg) no-repeat;
   display: inline-block;    width: 100%;
   height: 100%;border-radius: 0 0 16px 0px;transition: all .3s;
@@ -74,7 +74,7 @@ html body{background: #ffece9;}
   position: relative;
   color: #ffffff; transition: all .3s; top: 0;
   font-weight: 700;    text-transform: uppercase;
-  font-family: "Lato";padding: 25px 43px 25px 30px;
+  font-family: 'Lato';padding: 25px 43px 25px 30px;
   text-align: center;}
   @media (min-width:1025px){
     .header-menus.navbar-light .navbar-nav .nav-item:hover .nav-link{    top: 18px;}
@@ -117,15 +117,15 @@ i.icon-fa:hover {opacity: .7;}
   z-index: 1;
 }
 .mobile-open .header-section{position: static;}
-.page-wrapper::before{content: ""; position: fixed; top:20vw; left:0;
+.page-wrapper::before{content: ''; position: fixed; top:20vw; left:0;
   background: url(/src/images/sparkle-background1.svg); background-position: -150px 0;
   display: inline-block;    width: 100%; height: 100%; z-index: -1; pointer-events: none;}
 #root .coming-soom-wrap .container{    max-width: 1362px;}
-.coming-text {font-size: 14px;color: #414141;font-weight: 400;    max-width: 324px;  font-family: "Lato";}
+.coming-text {font-size: 14px;color: #414141;font-weight: 400;    max-width: 324px;  font-family: 'Lato';}
 .arrow{display: inline-block; width:21px; height: 7px;; background: url(/src/images/arrow.svg) no-repeat;margin: 4px 0 0 9px;}
-.btn1{max-width: 263px; width:100%;
-  height: 54px;
-  border-radius: 20px;
+.btn1{max-width: 300px; width:100%;
+  height: 65px;
+  border-radius: 34px;
   background-color: #fea6c5;font-size: 16px;
   color: #ffffff;
   font-weight: 700;display: flex;
@@ -134,11 +134,12 @@ i.icon-fa:hover {opacity: .7;}
   justify-content: center;
   text-decoration: none; margin-bottom: 12px;
   text-transform: uppercase;
-  font-family: "Lato"; transition: all .3s;}
+  font-family: 'Lato'; transition: all .3s;}
   
 .btn2{font-size: 14px;
   color: #ff84b0;max-width: 263px; width:100%;
   height: 37px;
+  max-width: 300px; width:100%;
   border-radius: 15px;display: flex;
   text-align: center;
   align-items: center;transition: all .3s;
@@ -146,12 +147,20 @@ i.icon-fa:hover {opacity: .7;}
   text-decoration: none;
   background-color: #ffd7e5;
   font-weight: 700;
-  font-family: "Lato";}
+  font-family: 'Lato';}
   .btn1:hover{color: #ffffff; text-decoration: underline;background-color: #ff72a4;}
   .btn2:hover{color: #000; text-decoration: underline;background-color: #fff;}
   .col.comin-right {
     flex: 1 0 50%;
 }
+
+.comingSoonMobile {
+  max-width: 300px;
+  height: auto;
+}
+
+
+
 .col.coming-left {
   flex: 1 0 20%;
 }
@@ -179,9 +188,9 @@ i.icon-fa:hover {opacity: .7;}
   font-size: 14px;
   color: #414141; list-style: none;
   font-weight: 400; position: relative;
-  font-family: "Lato";
+  font-family: 'Lato';
 }
-.about-listing li:before{content: "";width: 70px; height: 48px;  background: url(images/arrow-w.svg); background-size: contain; position: absolute; bottom: -30px; left: 50px;}
+.about-listing li:before{content: '';width: 70px; height: 48px;  background: url(images/arrow-w.svg); background-size: contain; position: absolute; bottom: -30px; left: 50px;}
 .col.about-right{flex: inherit;
   max-width: 32.5%;
   width: 100%; 
@@ -252,7 +261,7 @@ ul.benefits-listing {
   font-size: 14px;
   color: #fff;
   font-weight: 400; text-align: center;
-  font-family: "Lato";
+  font-family: 'Lato';
 }
 .benefits-icon {
   position: absolute;
@@ -279,8 +288,8 @@ ul.benefits-listing {
   line-height: 25px;
   color: #ffffff;    padding: 0 0 30px;
   font-weight: 400;
-  font-family: "Lato"; position: relative;}
-  .roadmap-listing > div:before{content: ""; width: 5px; height: 100%; border: 3px solid #ffd7e5;     position: absolute;
+  font-family: 'Lato'; position: relative;}
+  .roadmap-listing > div:before{content: ''; width: 5px; height: 100%; border: 3px solid #ffd7e5;     position: absolute;
     top: 10px;
     left: -31px}
     .roadmap-listing > div:last-child::before{content: none;}
@@ -290,12 +299,15 @@ ul.benefits-listing {
     text-align: left;
 }
 .roadmap-icon {display: block;padding: 0 0 0 25px; position: relative;}
-.roadmap-icon:before{content: ""; background: url(images/heart.svg) no-repeat; position: absolute; top: 0;left:-55px; width: 58px; height: 48px;}
+.roadmap-icon:before{content: ''; background: url(images/heart.svg) no-repeat; position: absolute; top: 0;left:-55px; width: 58px; height: 48px;}
 .roadmap-listing ul{padding: 5px 0;}
 .roadmap-listing ul > li{list-style: none; background: url(images/r-star.svg) no-repeat;padding: 1px 0 0 25px;background-position: 0px 4px;}
 .roadmap-listing ul li ul li{background: none; list-style-type: disc;    padding: 0 0 0 20px; list-style-position: inside;}
 
-.roadmap2-wrapper{padding: 130px 0;}
+.roadmap2-wrapper {
+  padding: 130px 0;
+  display: none;
+}
 #root .roadmap2-wrapper .container{max-width: 1110px;}
 .roadmap2-wrapper .roadmap-title img {
   margin: 0 0 40px;
@@ -304,14 +316,14 @@ ul.benefits-listing {
   line-height: 20px;
   color: #ffffff;
   font-weight: 500;
-  font-family: "Lato";    margin-top: 90px;
+  font-family: 'Lato';    margin-top: 90px;
   text-align: center;  background-color: #fea6c5;padding: 0 20px 20px;
   height: calc(100% - 90px);}
   .roadmap-inner h2{margin: 0; padding: 0;font-size: 15px;
     line-height: 20px;
     color: #ffffff;
     font-weight: 700;
-    font-family: "Lato";}
+    font-family: 'Lato';}
     .roadmap-img {
       position: relative;margin-bottom: -100px;
       top: -92px;min-height: 221px;
@@ -332,7 +344,7 @@ ul.benefits-listing {
   line-height: 20px;
   color: #ffffff;
   font-weight: 700;
-  font-family: "Lato";
+  font-family: 'Lato';
   text-align: center; margin: 0; padding: 0;}
   .team-img{    width: 100%;background-color: #b7b7b7;
     /* border: 5px solid #fff; */
@@ -370,21 +382,7 @@ ul.benefits-listing {
     .fotter-section ul li:last-child {
     }
     .copyright-sec{border-top: 2px solid #fff}
-    .fotter-section ul.fotter-link a:before {
-      content: "";
-      position: absolute;
-      top: -30px;
-      left: 50%;
-      background: url(images/footer-hover.png) no-repeat;
-      background-position: center top;
-      display: inline-block;
-      width: 110%;    opacity: 0;
-      visibility: hidden;
-      height: 0;
-      z-index: -1;
-      pointer-events: none; background-size: 100% 100%;
-      transition: all .3s;    transform: translateX(-50%);
-  }
+
   .fotter-section ul.fotter-link li:hover a::before {opacity: 1;
     visibility: visible;height: calc(100% + 30px);}
     ul.fotter-link li a {
@@ -393,7 +391,7 @@ ul.benefits-listing {
       font-size: 15px;
     color: #FFFFFF;    padding: 42px 25px;
     font-weight: 700;
-    font-family: "Lato"; position: relative;top: 0;
+    font-family: 'Lato'; position: relative;top: 0;
     text-align: center; transition: all .3s;;z-index: 1; text-decoration: none;
     }
     ul.fotter-link li a span{position: relative;transition: all .3s;top: 0;}
@@ -403,7 +401,7 @@ ul.benefits-listing {
       font-size: 12px;
       color: #414141;
       font-weight: 400;
-      font-family: "Lato";
+      font-family: 'Lato';
       text-align: center;
       padding:10px 20px;    margin: 0;
     }
@@ -581,12 +579,13 @@ ul.social-links.mobile-show li{    display: inline-block;}
   .header-section .navbar-light .navbar-toggler-icon{width: 22px; position:relative;
     height: 2px;
     background-color: #fea6c5;background-image:none;}
-    .placeholder-mobile.mobile-show{    float: right;
-      max-width: 200px;
-      /* right: -19px; */
-      right: -70px;
-      top: 25px;
-      position: relative}
+    .placeholder-mobile.mobile-show {
+      float: right;
+    max-width: 100px;
+    position: relative;
+    right: -20px;
+    top: -79px;
+    }
     .header-section .navbar-expand-lg .navbar-collapse{    display: none !important; position: fixed;
       top: 0;
       left: 0;    overflow: auto;
@@ -624,16 +623,16 @@ ul.social-links.mobile-show li{    display: inline-block;}
 }
 .nav-item:last-child:after{content: none;}
 .mobile-open .overlay-wrapper:before{background-image: linear-gradient(90deg, #000000 0%, rgba(77,77,77,0.08) 100%, rgba(84,84,84,0) 100%);  z-index: 1;width: 100vw;
-  background-position:inherit; top:0;  height: 100vh;      position: fixed;  background-color: #fff; content: "";}
+  background-position:inherit; top:0;  height: 100vh;      position: fixed;  background-color: #fff; content: '';}
     .navbar-light .navbar-toggler-icon:before{width: 22px; position:absolute; top:-7px; left:0;
-      height: 2px; background-color: #fea6c5;background-image:none; content:"";}
+      height: 2px; background-color: #fea6c5;background-image:none; content:'';}
       .navbar-light .navbar-toggler-icon:after{width: 22px; position:absolute; bottom:-7px; left:0;
-        height: 2px; background-color: #fea6c5;background-image:none; content:"";}
+        height: 2px; background-color: #fea6c5;background-image:none; content:'';}
 
         .btn-mint{border-radius: 17px;font-size: 12px;
           color: #ffffff; display: inline-block;
           font-weight: 700; text-decoration: none;
-          font-family: "Lato";    padding: 7px 15px;
+          font-family: 'Lato';    padding: 7px 15px;
           text-transform: uppercase;
           background-image: linear-gradient(180deg, #ffeaf1 0%, #fea6c5 100%, #ffffff 100%);height: 33px;
         }
@@ -660,9 +659,9 @@ ul.social-links.mobile-show li{    display: inline-block;}
   height: 2px;
   background-color: #fea6c5;background-image:none;}
   .navbar-light .navbar-toggler-icon:before{width: 22px; position:absolute; top:-7px; left:0;
-    height: 2px; background-color: #fea6c5;background-image:none; content:"";}
+    height: 2px; background-color: #fea6c5;background-image:none; content:'';}
     .navbar-light .navbar-toggler-icon:after{width: 22px; position:absolute; bottom:-7px; left:0;
-      height: 2px; background-color: #fea6c5;background-image:none; content:"";}
+      height: 2px; background-color: #fea6c5;background-image:none; content:'';}
 .coming-soom-wrap {
   flex-direction: column-reverse;
   display: flex;    padding-top: 70px;
@@ -751,7 +750,7 @@ ul.benefits-listing{    padding:0 5px 0 35px}
 .roadmap-inner{margin-bottom: 20px;padding: 0 10px 10px;
   height: calc(100% - 120px);}
 .roadmap-inner p{    font-weight: 300;}
-.fotter-section .content-row > [class*="col-"]{width:100%;    text-align: center;}
+.fotter-section .content-row > [class*='col-']{width:100%;    text-align: center;}
 .fotter-section .content-row > .col-6{display: none;}
 .fotter-section img {
   max-width: 155px;
@@ -797,4 +796,19 @@ ul.benefits-listing{    padding:0 5px 0 35px}
 }
 .header-section .navbar-expand-lg .navbar-collapse.mobile-open{
   display: block !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+input#amount {
+  max-width: 300px;
+  width: 100%;
+  height: 65px;
+  border-radius: 34px;
+  background-color: #fea6c5;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding-left: 20px;
 }
